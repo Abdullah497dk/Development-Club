@@ -367,12 +367,17 @@ nav .menu {
 .skills__js {
   width: 25%;
 }
+
+.skills__git {
+  width: 85%;
+}
+
 .skills__php {
   width: 10%;
 }
 
 .skills__python {
-  width: 65%;
+  width: 35%;
 }
 
 .skills__c {
