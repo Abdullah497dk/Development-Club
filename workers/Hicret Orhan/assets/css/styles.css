@@ -359,16 +359,16 @@ nav .menu {
   color: var(--skills-color);
 }
 .skills__html {
-  width: 75%;
+  width: 60%;
 }
 .skills__css {
-  width: 40%;
+  width: 25%;
 }
 .skills__js {
-  width: 5%;
+  width: 1%;
 }
 .skills__php {
-  width: 5%;
+  width: 1%;
 }
 
 .skills__python {

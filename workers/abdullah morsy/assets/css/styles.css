@@ -365,15 +365,19 @@ nav .menu {
   width: 85%;
 }
 .skills__js {
-  width: 25%;
+  width: 5%;
 }
 
 .skills__git {
   width: 85%;
 }
 
+.skills__sourcetree {
+  width: 90%;
+}
+
 .skills__php {
-  width: 10%;
+  width: 1%;
 }
 
 .skills__python {
@@ -381,11 +385,11 @@ nav .menu {
 }
 
 .skills__c {
-  width: 60%;
+  width: 30%;
 }
 
 .skills__arduino {
-  width: 10%;
+  width: 1%;
 }
 
 .skills__photoshop{
