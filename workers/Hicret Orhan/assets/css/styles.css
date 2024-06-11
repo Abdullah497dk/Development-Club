@@ -456,6 +456,15 @@ nav .menu {
   width: 80%;
 }
 
+.our-projects{
+  padding-left: 35px;
+}
+
+.our-projects span{
+  color: var(--main-color);
+  font-weight: 500;
+}
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
