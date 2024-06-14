@@ -67,7 +67,7 @@ nav .menu {
   align-items: center;
 }
 
-.phone img{ 
+.phoneC img{ 
   margin-left: 20px;
 }
 
@@ -278,6 +278,22 @@ button .first-button{
   background: none;
   color: white;
 }
+
+@media (max-width: 1044px) {
+
+  .center .title{
+    font-size: 45px;
+  }
+
+  .center .sub_title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  
+  
+}
 /*! start components */
 
 .main-heading {
@@ -407,10 +423,28 @@ button .first-button{
   font-size: 50px;
   font-weight: bold;
   margin: 0 0 20px;
+  
 }
 
 .stats .container .box p {
   font-size: 24px;
+}
+
+@media (max-width: 1044px) {
+  .stats .container .box i {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .stats .container .box .number {
+    font-size: 40px;
+  }
+
+  .stats .container .box p {
+    font-size: 20px;
+  }
+
 }
 
 /*! end stats */
@@ -478,6 +512,17 @@ button .first-button{
   height: 100px;
   margin-right: 50px;
   border-radius: 50%;
+}
+
+@media (max-width: 1044px) {
+  .our-skills .testimonials .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .our-skills .testimonials .content img {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -824,4 +869,18 @@ button:hover {
 .text-one {
   font-size: 14px;
   color: #afafb6;
+}
+
+
+@media (max-width: 1044px){
+  .con{
+    display: block;
+  }
+
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
 }
