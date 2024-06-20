@@ -392,7 +392,7 @@ button .first-button{
 @media (max-width: 767px) {
   .about img {
     bottom: -60px;
-    top: -60px;
+    top: -30px;
   }
 }
 
