@@ -673,10 +673,12 @@ button .first-button{
   top: 0;
   text-align: left; 
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 
 .teamMates{
   padding-left: 15px;
+  text-transform: capitalize;
 }
 
 .team .info{
