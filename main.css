@@ -673,10 +673,12 @@ button .first-button{
   top: 0;
   text-align: left; 
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 
 .teamMates{
   padding-left: 15px;
+  text-transform: capitalize;
 }
 
 .team .info{
@@ -762,14 +764,20 @@ button .first-button{
   padding-right: var(--sec-padding);
 }
 
-@media (min-width: 767px) {
-  .servisec .servisec-container {
+@media (max-width: 767px) {
+
+  .servisec{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* .servisec .servisec-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-column-gap: 40px;
     grid-row-gap: 60px;
-  }
-}
+  }*/
+} 
 
 .servisec .svr-box {
   display: flex;
@@ -944,7 +952,7 @@ button:hover {
 }
 
 
-@media (max-width: 1044px){
+@media (max-width: 1144px){
   .con{
     display: block;
   }

@@ -359,42 +359,27 @@ nav .menu {
   color: var(--skills-color);
 }
 .skills__html {
-  width: 95%;
+  width: 75%;
 }
 .skills__css {
-  width: 85%;
+  width: 25%;
 }
 .skills__js {
-  width: 5%;
+  width: 1%;
 }
 
 .skills__git {
-  width: 85%;
+  width: 1%;
 }
 
 .skills__sourcetree {
-  width: 90%;
+  width: 1%;
 }
 
 .skills__php {
   width: 1%;
 }
 
-.skills__python {
-  width: 35%;
-}
-
-.skills__c {
-  width: 30%;
-}
-
-.skills__arduino {
-  width: 1%;
-}
-
-.skills__photoshop{
-  width: 65%;
-}
 
 .skills__img {
   border-radius: 0.5rem;
@@ -438,6 +423,7 @@ nav .menu {
   color: var(--main-color);
   font-size: 50px;
   top: 0;
+  text-transform: capitalize;
 }
 
 .teamMates{
